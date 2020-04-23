@@ -19,7 +19,8 @@
 
 <body>
   <h1>Index</h1>
-  <p>This is a sample page width php-template.</p>
+  <p><?php echo $msg; ?></p>
+  <p>ID=<?php echo $id;?></p>
 </body>
 
 </html>
