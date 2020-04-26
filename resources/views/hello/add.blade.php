@@ -3,9 +3,8 @@
 @section('title','Add')
 
 @section('menubar')
-@parent
-新規作成ページ
-
+  @parent
+  新規作成ページ
 @endselection
 
 @selection('content')
