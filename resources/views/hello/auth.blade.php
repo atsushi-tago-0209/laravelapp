@@ -5,9 +5,9 @@
 @section('menubar')
   @parent
   ユーザー認証ページ
-@endselection
+@endsection
 
-@selection('content')
+@section('content')
 <form action="/hello/auth" method="post">
 <table>
   @csrf
